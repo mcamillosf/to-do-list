@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(./images/list.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#lista-tarefas {
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+}
+
+li {
+  width: 500px;
+  background-color: rgb(228, 228, 228);
+  margin: 4px;
+  padding: 5px;
+  list-style: none;
+  font-size: 18px;
+}
+
+#criar-tarefa {
+  margin: 0 25px;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+}
+
+article {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#lista-tarefas li:hover {
+  background-color: rgb(128, 128, 128);
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+button {
+  padding: 10px;
+  width: 150px;
+  margin: 0 10px;
+}
+
+#texto-tarefa {
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+}
